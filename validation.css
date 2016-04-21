@@ -1,0 +1,113 @@
+label
+{  
+    color: black;
+}
+body { 
+margin: auto;
+text-align: center;
+background-image: url("Pizza_BG.jpg");
+background: auto; 
+}
+div { 
+border-color:black;
+padding:10px;
+margin:center;
+}
+fieldset {
+	margin:500px;
+	margin-color: red;
+	padding: 5px; 
+	margin-top: -50px; 
+	text-align: center;
+}
+#entete {
+	position: relative; 
+	top: 50px;
+	height: 50px;
+	width: 98%;
+	background-color: #ff4c00;
+	border-radius: 10px;
+	margin-top: 10px ;
+}
+
+.inform {
+	color:white;
+	float: center;
+	font-size: 22px;
+	margin-right: 2px;
+	margin-top: 10px;
+}
+
+#home {
+	color: white;
+	float: left;
+	font-size: 22px;
+	margin-left: 2px;
+	margin-top: 10px;
+	font-family: Verdana;
+}
+h3 { 
+	margin-top:20px;
+	margin-bottom: 40px;
+	font-family: Verdana; 
+	color: red;
+	text-align: center;
+
+}
+#info { 
+font-family: Oswald; 
+text-align: center; 
+font-size: 50px;
+margin-top: -65px; 
+}
+#Copy { 
+color: orange;
+text-align: left; }
+
+h2 { 
+margin-top: -18px;
+text-align: center;
+color: #800000;
+} 
+html { 
+text-align: center; }
+
+.button {
+position:relative;
+margin-top: -20px; 
+border-radius: 10px;
+display: inline-block;
+}
+
+a {
+	text-decoration: none;
+} 
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: black;}
+a:active {color: blue;}
+
+.accueil_et_carte {
+position:absolute;
+top: 20px;
+right: 20px;
+margin-top: -20px; 
+background-color: green;
+border-radius: 10px;
+display: inline-block;
+}
+
+footer {
+ position:fixed;
+ bottom:20px;
+ color:orange;
+ text-align: left; 
+}
+
+.tempsLivraison { 
+color: red; 
+}
+#RecuCommande { 
+font-size: 30px; 
+color: white;
+}

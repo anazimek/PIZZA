@@ -1,0 +1,134 @@
+body {
+	color: white;
+	background-image:url(Pizza_BG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+	}
+
+#entete {
+	position: absolute; top;
+	height: 42px;
+	width: 98%;
+	background-color: #ff4c00;
+	border-radius: 10px;
+}
+
+#info {
+	color:white;
+	float: right;
+	font-size: 22px;
+	margin-right: 2px;
+	margin-top: 10px;
+}
+
+#home {
+	color: white;
+	float: left;
+	font-size: 22px;
+	margin-left: 2px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.resultat_commande {
+	margin-top: 90px;
+	margin-left: 200px;
+
+	text-align: center;
+	border-style: 1px solid;
+	border-color: white;
+	border-collapse: collapse;
+	width: 900px;
+
+	color: red;
+	font-weight: bold;
+	width: 900px;	
+	background-color: rgba(255, 140, 0, 0.8);
+	display: inline-block;
+	font: 2px #000000;
+	float: center;
+	text-align: center; 
+}
+
+.article {
+	width: 300px;
+	text-align: center;
+	border: 1px solid;
+	border-color: white;
+}
+
+.quantite {
+	width: 300px;
+	text-align: center;
+	border: 1px solid black;
+	border-color: white;
+}
+
+.total {
+	width: 300px;
+	text-align: center;
+	border: 1px solid black;
+	border-color: white;
+}
+
+td {
+	width: 300px;
+	text-align: center;
+	border: 1px solid;
+	border-color: white;
+	border-collapse: collapse;
+
+}
+
+footer {
+	text-align: left;
+	position: fixed;
+	bottom: 20px;
+    color: orange;
+	font-weight: bold;
+	width: 98%;
+}
+
+
+.select_pizza {
+	margin-top: 100px;
+	float: center;
+	margin-left: 250px;
+	display: inline-block;
+}
+
+.taille_pizza {
+	margin-top: 100px;
+	float: center;
+	margin-left: 185px;
+	display: inline-block;
+}
+
+.quantite_pizza {
+	margin-top: 100px;
+	float: center;
+	margin-left: 240px;
+	display: inline-block;
+}
+
+.valider {
+	float: bottom;
+	margin-bottom: 100px;
+	margin-left: 925px;
+	display: inline;
+	background-color: green;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+} 
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: black;}
+a:active {color: blue;}
+
+
+
